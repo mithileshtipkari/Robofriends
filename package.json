@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +22,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is created to learn concepts of React.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mithileshtipkari/Robofriends.git"
+  },
+  "author": "mithilesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mithileshtipkari/Robofriends/issues"
+  },
+  "homepage": "https://github.com/mithileshtipkari/Robofriends#readme"
 }

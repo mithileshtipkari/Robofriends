@@ -1,0 +1,8 @@
+Notes taken during leactures
+
+* STATE -
+1. State is an object that can change and affect our app, 
+	it  usually stays in parent component,
+	as state(ex. robots) is passed to child component it becomes props which can not be changed by child. 
+2. To define state we have to use class syntax that is we
+	have to define our component as class instead of as function
