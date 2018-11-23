@@ -6,3 +6,6 @@ Notes taken during leactures
 	as state(ex. robots) is passed to child component it becomes props which can not be changed by child. 
 2. To define state we have to use class syntax that is we
 	have to define our component as class instead of as function
+
+* Component life-cycle hooks -
+https://reactjs.org/docs/react-component.html#the-component-lifecycle
