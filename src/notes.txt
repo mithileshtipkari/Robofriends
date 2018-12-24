@@ -14,3 +14,4 @@ Styling React components-
 * Inline styles - JS object are used whose key is camelcased version of style names and value is style's value in string format, then we use that object in style tag of div, 
 
 	ex- <div style={styleObject}>...</div>
+	

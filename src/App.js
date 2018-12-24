@@ -5,6 +5,7 @@ import Scroll from './Scroll'
 import {robots} from './robots'//{} -> shorthand to import non default variables
 import SearchBox from './SearchBox'
 import './App.css'
+import { Scrollbars } from 'react-custom-scrollbars';
 
 class App extends Component{
 	constructor(){
@@ -37,9 +38,9 @@ class App extends Component{
 			<div className='tc'>
 				<h1 className='f1'>RoboFriends</h1>
 				<SearchBox searchChange={this.onSearchChange}/>
-				<Scroll>
+				<Scrollbars style={{ height: 500 }}>
 					<CardList robots={filteredRobots}/>
-				</Scroll>
+				</Scrollbars>
 			</div>
 		);
 	}
