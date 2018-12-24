@@ -1,4 +1,4 @@
-Notes taken during leactures
+hi Notes taken during leactures
 
 * STATE -
 1. State is an object that can change and affect our app, 
@@ -9,3 +9,8 @@ Notes taken during leactures
 
 * Component life-cycle hooks -
 https://reactjs.org/docs/react-component.html#the-component-lifecycle
+
+Styling React components-
+* Inline styles - JS object are used whose key is camelcased version of style names and value is style's value in string format, then we use that object in style tag of div, 
+
+	ex- <div style={styleObject}>...</div>
