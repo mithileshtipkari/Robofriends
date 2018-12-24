@@ -5,7 +5,8 @@ import Scroll from '../components/Scroll'
 import {robots} from '../robots'//{} -> shorthand to import non default variables
 import SearchBox from '../components/SearchBox'
 import './App.css'
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars'
+import ErrorBoundry from '../components/ErrorBoundry'
 
 class App extends Component{
 	constructor(){
@@ -42,7 +43,9 @@ class App extends Component{
 				<h1 className='f1'>RoboFriends</h1>
 				<SearchBox searchChange={this.onSearchChange}/>
 				<Scrollbars style={{ height: 500 }}>
-					<CardList robots={filteredRobots}/>
+					<ErrorBoundry>
+						<CardList robots={filteredRobots}/>
+					</ErrorBoundry>
 				</Scrollbars>
 			</div>
 		);
