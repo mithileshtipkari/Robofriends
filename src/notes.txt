@@ -1,4 +1,4 @@
-Notes taken during leactures
+hi Notes taken during leactures
 
 * STATE -
 1. State is an object that can change and affect our app, 
@@ -6,3 +6,12 @@ Notes taken during leactures
 	as state(ex. robots) is passed to child component it becomes props which can not be changed by child. 
 2. To define state we have to use class syntax that is we
 	have to define our component as class instead of as function
+
+* Component life-cycle hooks -
+https://reactjs.org/docs/react-component.html#the-component-lifecycle
+
+Styling React components-
+* Inline styles - JS object are used whose key is camelcased version of style names and value is style's value in string format, then we use that object in style tag of div, 
+
+	ex- <div style={styleObject}>...</div>
+	
